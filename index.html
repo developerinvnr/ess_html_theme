@@ -22,6 +22,7 @@
 	    
     <link rel="stylesheet" type="text/css" id="theme-change"  href="./css/style.css">
     <link rel="stylesheet" type="text/css" href="./css/custom-style.css">
+    <link rel="stylesheet" type="text/css" href="./css/custom-calender.css">
 	<link rel="stylesheet" type="text/css" href="./css/haf-pai.css">
 </head>
 
@@ -418,7 +419,7 @@
                     <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12">
 						<div class="card chart-card">
                             <div class="card-header">
-                                <h4 class="has-btn float-start mt-2">Attendance - September 2024</H4>
+                                <h4 class="has-btn float-start mt-2">Attendance - August 2024</H4>
 								<span class="float-end">
 									<select class="select2 form-control select-opt" id="monthname" fdprocessedid="7n33b9">
 										  <option value="select">Select Month </option>
@@ -435,8 +436,340 @@
 								</span>
                             </div>
 							<div class="card-body">
-								<img class="w-100-" src="./images/calender-s.png">
-								<div class="calendar-wrapper d-none"></div>
+								<table class="calendar">
+                                    <thead>
+                                        <tr class="weekday">
+                                            <th>Sunday</th><th>Monday</th><th>Tuesday</th><th>Wednesday</th><th>Thursday</th><th>Friday</th><th>Saturday</th>
+                                        </tr>
+                                    </thead>
+                                <tbody>
+                                 <tr>
+                                      <td style="background-color:#E3EDDC;" class="day"></td>
+                                      <td class="day"></td>
+                                      <td class="day"></td>
+                                      <td class="day"></td>
+                                      <td class="day">
+                                        <div class="day-num">01</div>
+                                        <div class="punch-section">
+                                            <span><b>In:</b> 9:20</span><br>
+                                            <span><b>Out:</b> 18:20</span>
+                                        </div>
+                                        <div class="atten-box">
+                                            <i class="fas fa-check-circle success"></i>
+                                        </div>
+                                      </td> 
+                                      <td class="day">
+                                        <div class="day-num">02</div>
+                                        <div class="punch-section">
+                                            <span><b>In:</b> 9:20</span><br>
+                                            <span><b>Out:</b> 18:20</span>
+                                        </div>
+                                        <div class="atten-box">
+                                            <i class="fas fa-check-circle success"></i>
+                                        </div>
+                                      </td> 
+                                      <td class="day">
+                                        <div class="day-num">03</div>
+                                        <div class="punch-section">
+                                            <span><b>In:</b> 9:20</span><br>
+                                            <span><b>Out:</b> 18:20</span>
+                                        </div>
+                                        <div class="atten-box">
+                                            <i class="fas fa-check-circle success"></i>
+                                        </div>
+                                      </td>  
+                                </tr>
+                                <!--------------2nd week--------------->
+                                <tr>
+                                      <td style="background-color:#E3EDDC;" class="day">
+                                        <div class="day-num">04</div>
+                                      </td>
+                                    <td class="day">
+                                        <div class="day-num">05</div>
+                                        <div class="punch-section">
+                                            <span class="danger"><b>In:</b> 9:34</span><br>
+                                            <span><b>Out:</b> 18:20</span>
+                                        </div>
+                                        <div class="atten-box">
+                                            <i class="fas fa-check-circle success"></i>
+                                            <span class="atte-late">L1</span>
+                                            <a href=""><i class="fas fa-plus-circle primary"></i></a>
+                                        </div>
+                                      </td>
+                                      <td class="day">
+                                        <div class="day-num">018</div>
+                                        <div class="punch-section">
+                                            <span><b>In:</b> 9:20</span><br>
+                                            <span><b>Out:</b> 18:20</span>
+                                        </div>
+                                        <div class="atten-box">
+                                            <i class="fas fa-check-circle success"></i>
+                                        </div>
+                                      </td>
+                                      <td class="day">
+                                        <div class="day-num">07</div>
+                                        <div class="punch-section deafult">
+                                            <span><b>In:</b> 00:00</span><br>
+                                            <span><b>Out:</b> 00:00</span>
+                                        </div>
+                                        <div class="atten-box">
+                                            <span class="atte-absent">A</span>
+                                        </div>
+                                      </td>
+                                      <td class="day">
+                                        <div class="day-num">08</div>
+                                        <div class="punch-section">
+                                            <span class="danger"><b>In:</b> 9:40</span><br>
+                                            <span><b>Out:</b> 18:20</span>
+                                        </div>
+                                        <div class="atten-box">
+                                            <i class="fas fa-check-circle success"></i>
+                                            <span class="atte-late">L2</span>
+                                            <a href=""><i class="fas fa-plus-circle primary"></i></a>
+                                        </div>
+                                      </td> 
+                                      <td class="day">
+                                        <div class="day-num">09</div>
+                                        <div class="punch-section">
+                                            <span><b>In:</b> 9:20</span><br>
+                                            <span><b>Out:</b> 18:20</span>
+                                        </div>
+                                        <div class="atten-box">
+                                            <i class="fas fa-check-circle success"></i>
+                                        </div>
+                                      </td> 
+                                      <td class="day">
+                                        <div class="day-num">10</div>
+                                        <div class="punch-section">
+                                            <span><b>In:</b> 9:20</span><br>
+                                            <span><b>Out:</b> 18:20</span>
+                                        </div>
+                                        <div class="atten-box">
+                                            <i class="fas fa-check-circle success"></i>
+                                        </div>
+                                      </td>  
+                                </tr>
+                                
+                                <!--------------3nd week--------------->
+                                <tr>
+                                      <td style="background-color:#E3EDDC;" class="day">
+                                        <div class="day-num">11</div>
+                                      </td>
+                                    <td class="day">
+                                        <div class="day-num">12</div>
+                                        <div class="punch-section">
+                                            <span><b>In:</b> 9:20</span><br>
+                                            <span><b>Out:</b> 18:20</span>
+                                        </div>
+                                        <div class="atten-box">
+                                            <i class="fas fa-check-circle success"></i>
+                                        </div>
+                                      </td>
+                                      <td class="day">
+                                        <div class="day-num">13</div>
+                                        <div class="punch-section">
+                                            <span><b>In:</b> 9:20</span><br>
+                                            <span><b>Out:</b> 18:20</span>
+                                        </div>
+                                        <div class="atten-box">
+                                            <i class="fas fa-check-circle success"></i>
+                                        </div>
+                                      </td>
+                                      <td class="day">
+                                        <div class="day-num">14</div>
+                                        <div class="punch-section">
+                                            <span><b>In:</b> 9:20</span><br>
+                                            <span><b>Out:</b> 18:20</span>
+                                        </div>
+                                        <div class="atten-box">
+                                            <i class="fas fa-check-circle success"></i>
+                                        </div>
+                                      </td>
+                                      <td class="day">
+                                        <div class="day-num">15</div>
+                                        <div class="punch-section deafult">
+                                            <span><b>In:</b> 00:00</span><br>
+                                            <span><b>Out:</b> 00:00</span>
+                                        </div>
+                                        <div class="atten-box">
+                                            <span class="holiday-cal">H</span>
+                                        </div>
+                                      </td> 
+                                      <td class="day">
+                                        <div class="day-num">16</div>
+                                        <div class="punch-section">
+                                            <span><b>In:</b> 9:20</span><br>
+                                            <span><b>Out:</b> 18:20</span>
+                                        </div>
+                                        <div class="atten-box">
+                                            <i class="fas fa-check-circle success"></i>
+                                        </div>
+                                      </td> 
+                                      <td class="day">
+                                        <div class="day-num">17</div>
+                                        <div class="punch-section">
+                                            <span><b>In:</b> 9:20</span><br>
+                                            <span><b>Out:</b> 18:20</span>
+                                        </div>
+                                        <div class="atten-box">
+                                            <i class="fas fa-check-circle success"></i>
+                                        </div>
+                                      </td>  
+                                </tr>
+                                <!--------------4nd week--------------->
+                                <tr>
+                                      <td style="background-color:#E3EDDC;" class="day">
+                                        <div class="day-num">18</div>
+                                      </td>
+                                    <td class="day">
+                                        <div class="day-num">19</div>
+                                        <div class="punch-section deafult">
+                                            <span><b>In:</b> 00:00</span><br>
+                                            <span><b>Out:</b> 00:00</span>
+                                        </div>
+                                        <div class="atten-box">
+                                            <span class="holiday-cal">H</span>
+                                        </div>
+                                      </td>
+                                      <td class="day">
+                                        <div class="day-num">20</div>
+                                        <div class="punch-section">
+                                            <span><b>In:</b> 9:20</span><br>
+                                            <span class="danger"><b>Out:</b> 13:33</span>
+                                        </div>
+                                        <div class="atten-box mt-1">
+                                            <div class="haf-leave">
+                                                <div class="second-haf"></div>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="atten-box mt-1">
+                                            <i class="fas fa-check-circle success"></i>
+                                            <span class="atte-late">L3</span>
+                                            <span class="atte-leave">CL</span>
+                                            <a href=""><i class="fas fa-plus-circle primary"></i></a>
+                                        </div>
+                                      </td>
+                                      <td class="day">
+                                        <div class="day-num">21</div>
+                                        <div class="punch-section">
+                                            <span><b>In:</b> 9:20</span><br>
+                                            <span><b>Out:</b> 18:20</span>
+                                        </div>
+                                        <div class="atten-box">
+                                            <i class="fas fa-check-circle success"></i>
+                                        </div>
+                                      </td>
+                                      <td class="day">
+                                        <div class="day-num">22</div>
+                                        <div class="punch-section">
+                                            <span><b>In:</b> 9:20</span><br>
+                                            <span><b>Out:</b> 18:20</span>
+                                        </div>
+                                        <div class="atten-box">
+                                            <i class="fas fa-check-circle success"></i>
+                                        </div>
+                                      </td> 
+                                      <td class="day">
+                                        <div class="day-num">23</div>
+                                        <div class="punch-section">
+                                            <span><b>In:</b> 9:20</span><br>
+                                            <span><b>Out:</b> 18:20</span>
+                                        </div>
+                                        <div class="atten-box">
+                                            <i class="fas fa-check-circle success"></i>
+                                        </div>
+                                      </td> 
+                                      <td class="day">
+                                        <div class="day-num">24</div>
+                                        <div class="punch-section deafult">
+                                            <span><b>In:</b> 00:00</span><br>
+                                            <span><b>Out:</b> 00:00</span>
+                                        </div>
+                                        <div class="atten-box">
+                                            <span class="apply-leave">CL</span>
+                                        </div>
+                                      </td>  
+                                </tr>
+                                <!--------------2nd week--------------->
+                                <tr>
+                                      <td style="background-color:#E3EDDC;" class="day">
+                                        <div class="day-num">25</div>
+                                      </td>
+                                    <td class="day">
+                                        <div class="day-num">26</div>
+                                        <div class="punch-section">
+                                            <span><b>In:</b> 9:20</span><br>
+                                            <span><b>Out:</b> 18:20</span>
+                                        </div>
+                                        <div class="atten-box">
+                                            <i class="fas fa-check-circle success"></i>
+                                        </div>
+                                      </td>
+                                      <td class="day">
+                                        <div class="day-num">27</div>
+                                        <div class="punch-section">
+                                            <span><b>In:</b> 9:20</span><br>
+                                            <span><b>Out:</b> 18:20</span>
+                                        </div>
+                                        <div class="atten-box">
+                                            <i class="fas fa-check-circle success"></i>
+                                        </div>
+                                      </td>
+                                      <td class="day">
+                                        <div class="day-num">28</div>
+                                        <div class="punch-section">
+                                            <span><b>In:</b> 9:20</span><br>
+                                            <span><b>Out:</b> 18:20</span>
+                                        </div>
+                                        <div class="atten-box">
+                                            <i class="fas fa-check-circle success"></i>
+                                        </div>
+                                      </td>
+                                      <td class="day">
+                                        <div class="day-num">29</div>
+                                        <div class="punch-section">
+                                            <span class="danger"><b>In:</b> 13:20</span><br>
+                                            <span><b>Out:</b> 18:20</span>
+                                        </div>
+                                        <div class="atten-box mt-1">
+                                            <div class="haf-leave">
+                                                <div class="first-haf"></div>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="atten-box mt-1">
+                                            <i class="fas fa-check-circle success"></i>
+                                            <span class="atte-late">L4</span>
+                                            <span class="atte-leave">CL</span>
+                                            <a href=""><i class="fas fa-plus-circle primary"></i></a>
+                                        </div>
+                                      </td> 
+                                      <td class="day">
+                                        <div class="day-num">30</div>
+                                        <div class="punch-section">
+                                            <span><b>In:</b> 9:20</span><br>
+                                            <span><b>Out:</b> 18:20</span>
+                                        </div>
+                                        <div class="atten-box">
+                                            <i class="fas fa-check-circle success"></i>
+                                        </div>
+                                      </td> 
+                                      <td class="day">
+                                        <div class="day-num">31</div>
+                                        <div class="punch-section">
+                                            <span><b>In:</b> 9:20</span><br>
+                                            <span><b>Out:</b> 18:20</span>
+                                        </div>
+                                        <div class="atten-box">
+                                            <i class="fas fa-check-circle success"></i>
+                                        </div>
+                                      </td>  
+                                </tr>
+                                
+                                </tbody>
+                                </table>
+                                <!-------------------------end----------------------->
 							</div>
 						</div>
 						<div class="card chart-card ">
@@ -452,7 +785,7 @@
 											<div class="col-md-12">
 												<b>Casual Leave(CL)</b>
 											</div>
-											<div class="pie-wrapper" style="margin: 5px; auto;">
+											<div class="pie-wrapper" style="margin: 5px;">
 												<div style="border-color: #659093;" class="arc" data-value="20"></div>
 											</div>
 											<div class="col-md-6 text-center" style="border-right:1px solid #ddd;">
@@ -468,7 +801,7 @@
 											<div class="col-md-12">
 												<b>Sick Leave(SL)</b>
 											</div>
-											<div class="pie-wrapper" style="margin: 5px; auto;">
+											<div class="pie-wrapper" style="margin: 5px;">
 												<div style="border-color: #659093;" class="arc" data-value="50"></div>
 											</div>
 											<div class="col-md-6 text-center" style="border-right:1px solid #ddd;">
@@ -484,7 +817,7 @@
 											<div class="col-md-12">
 												<b>Privilege Leave(PL)</b>
 											</div>
-											<div class="pie-wrapper" style="margin: 5px; auto;">
+											<div class="pie-wrapper" style="margin: 5px;">
 												<div style="border-color: #659093;" class="arc" data-value="60"></div>
 											</div>
 											<div class="col-md-6 text-center" style="border-right:1px solid #ddd;">
@@ -500,7 +833,7 @@
 											<div class="col-md-12">
 												<b>Earn Leave(EL)</b>
 											</div>
-											<div class="pie-wrapper" style="margin: 5px; auto;">
+											<div class="pie-wrapper" style="margin: 5px;">
 												<div style="border-color: #659093;" class="arc" data-value="10"></div>
 											</div>
 											<div class="col-md-6 text-center" style="border-right:1px solid #ddd;">
@@ -516,7 +849,7 @@
 											<div class="col-md-12">
 												<b>Festival Leave(FL)</b>
 											</div>
-											<div class="pie-wrapper" style="margin: 5px; auto;">
+											<div class="pie-wrapper" style="margin: 5px;">
 												<div style="border-color: #659093;" class="arc" data-value="0"></div>
 											</div>
 											<div class="col-md-6 text-center" style="border-right:1px solid #ddd;">
