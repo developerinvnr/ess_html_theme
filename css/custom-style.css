@@ -829,3 +829,6 @@ border-bottom: 1px solid #489099;
 	float:left;
 	margin-bottom: 8px;padding:5px 8px;
 }
+.sidebar-hover .side-menu-wrap ul li{
+  text-align: center;
+}

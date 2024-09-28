@@ -1,13 +1,13 @@
    .pie-wrapper {
       position: relative;
-      width: 116px;
-      height: 58px;
+      width: 100px;
+      height: 50px;
       overflow: hidden;
     }
     .pie-wrapper .arc, .pie-wrapper:before {
       content: '';
-      width: 116px;
-      height: 58px;
+      width: 100px;
+      height: 50px;
       position: absolute;
       -ms-transform-origin: 50% 0%;
       -webkit-transform-origin: 50% 0%;
