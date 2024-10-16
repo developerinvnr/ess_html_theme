@@ -832,3 +832,71 @@ border-bottom: 1px solid #489099;
 .sidebar-hover .side-menu-wrap ul li{
   text-align: center;
 }
+.ctc-section{
+  width: 100%;
+}
+.ctc-section li{
+  border-bottom:1px solid #ddd;
+  font-size: 14px;
+  font-weight: 500;
+  float: left;
+  width: 100%;
+  padding: 6px 0px;
+}
+.ctc-section li:last-child{
+  border-bottom: 0px solid #ddd;
+}
+.ctc-section  li i{
+  color: #A2B5BA;
+}
+.ctc-title{
+  float: left;
+  width: 50%;
+  color: #264E58;
+}
+.ctc-title p{
+font-size:12px;
+font-weight: normal;
+}
+.ctc-value{
+  text-align: right;
+}
+.ctc-value b{
+  color: #DC7937;
+  text-align: right;
+  min-width: 70px;
+  float: right;
+}
+.ctc-head-title p, .eligibility-head-title p{
+  color: #5a5656;
+}
+.user-details{
+  font-weight: 500;
+  color: #264E58;
+}
+.eligibility-box{
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 15px;
+  min-width: 160px;
+}
+.eligibility-box h4{
+  color: #264E58;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+.eligibility-box h4 span{
+  background-color: #C2D9DA;
+  border-radius: 50%;
+  padding: 6px 10px;
+  float: right;
+
+}
+.eligibility-box h5{
+  color: #DC7937;
+}
+.eligibility-box i{
+  color: #A2B5BA;
+  margin-right: 10px;
+}

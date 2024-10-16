@@ -42,8 +42,8 @@
                         </form>
                         <a class="search-close" href="javascript:void(0);"><span class="icofont-close-line"></span></a>
                     </div>
-                    <div class="header-left">
-                        <div class="header-links d-none">
+                    <div class="header-left ">
+                        <div class="header-links d-lg-none">
                             <a href="javascript:void(0);" class="toggle-btn">
                                 <span></span>
                             </a>
@@ -104,13 +104,13 @@
                                     </a>
                                 </div>
                             </div>
-                        </div>
+                        </div> 
                         <div class="user-info-wrapper header-links">
                             <a href="javascript:void(0);" class="user-info">
                                 <img src="./images/user.jpg" alt="" class="user-img">
                                 <div class="blink-animation">
                                     <span class="blink-circle t-present-b"></span>
-                                    <span class="main-circle  t-present"></span>
+                                    <span class="main-circle t-present"></span>
                                 </div>
                             </a>
                             <div class="user-info-box">
@@ -1190,6 +1190,31 @@
 										<div class="tab-content splash-content2 mt-3" id="myTabContent2">
 											<div class="tab-pane fade active show" id="assets" role="tabpanel">
 												<p>Assets details</p>
+												<table class="table">
+													<tbody>
+														<tr>
+															<td rowspan="2">Sn</td>
+															<td rowspan="2">EC</td>
+															<td rowspan="2">Name</td>
+															<td rowspan="2">Contact No.</td>
+															<td rowspan="2">Name of Asset</td>
+															<td colspan="3" class="text-center">Amount</td>
+															<td colspan="3" class="text-center">Request</td>
+															<td rowspan="2">Copy</td>
+															<td rowspan="2">Status</td>
+															<td rowspan="2">HOD Comment</td>
+															<td rowspan="2">Action</td>
+														</tr>
+														<tr>
+															<td>Balance</td>
+															<td>Request</td>
+															<td>Approval</td>
+															<td>Date</td>
+															<td>History</td>
+															<td>Details</td>
+														</tr>
+													</tbody>
+												</table>
 											</div>
 											<div class="tab-pane fade" id="kra" role="tabpanel">
 												<p>KRA</p>
@@ -1432,7 +1457,7 @@ width:50px;
 
 }
 .tree li div.emp span{color: #9d8f8f;font-size:10px;}
-}
+
 
 .tree li div.emp:hover, .tree li div.emp:hover+ul li div.emp {
     background: #c8e4f8;
