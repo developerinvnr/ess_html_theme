@@ -576,7 +576,7 @@ table {
 
 table tr th,
 table tr td {
-    padding: 10px 0;
+    padding: 5px 0;
 }
 
 body .apexcharts-menu {
@@ -2567,7 +2567,7 @@ svg[stroke="currentColor"] {
 .main-content {
     position: relative;
     min-height: 100vh;
-    padding: 75px 25px 60px;
+    padding: 75px 10px 60px;
     width: calc(100% - 205px);
     margin-left: 205px;
 	transition: 0.3s;
@@ -6697,7 +6697,7 @@ ul.colors li p {
 		margin-left: 0;
 	}
 	.sidebar-wrapper {
-		top: 80px;
+		top: 60px;
 		left: -205px;
 	}
 	body.mini-sidebar .sidebar-wrapper {
@@ -6968,7 +6968,7 @@ ul.colors li p {
 		width: 100%;
 	}
 	.breadcrumb-list {
-		text-align: center;
+		text-align: left;
 	}
 	.product-item {
 		width: 206px;
