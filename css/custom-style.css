@@ -916,3 +916,38 @@ font-weight: normal;
 .gratuity-section span{
   color: #DC7937;
 }
+.team-cost-section{
+  width: 100%;
+}
+.team-cost-section li {
+  border-bottom: 1px solid #ddd;
+  font-size: 12px;
+  font-weight: 500;
+  float: left;
+  width: 100%;
+  padding: 6px 0px;
+}
+.team-name {
+  float: left;
+  width: 50%;
+  color: #264E58;
+}
+.team-cost-wrapper{
+  font-size: 11px;
+}
+.team-cost-wrapper tr td{
+  color: #DC7937;
+  font-weight: 600;
+}
+.team-cost-btn i{
+  background-color: #ddd;
+  padding: 4px 6px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+.with-team{
+  padding: 7px 15px;
+    background-color: #f1f1f1;
+    float: left;
+    width: 100%;
+}
