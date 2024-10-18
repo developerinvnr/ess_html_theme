@@ -951,3 +951,15 @@ font-weight: normal;
     float: left;
     width: 100%;
 }
+.emp-request-leave{
+
+}
+.emp-request-leave img{
+  width: 35px;height: 35px;border:1px solid #999;
+}
+.emp-request-leave b{
+color: #2c4d57;
+}
+.emp-request-leave p{
+color:#407281;
+}
