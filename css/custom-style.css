@@ -408,20 +408,6 @@ margin-top: 20px;
   right: 0;
   font-size: 16px;
 }
-
-.pms-bpx{
-  border-bottom: 1px solid #ddd;
-  padding-bottom: 10px;
-  margin-bottom: 10px;
-}
-.kra-btns{
-  float: left;
-}
-.kra-btns li{
-float: left;
-margin-left: 10px;
-}
-.kra-btns li a i{margin-left: 10px;}
 /* education timeline*/
 .year-top-arrow{
   background-image: url(../images/year-top.png);
@@ -986,3 +972,29 @@ color: #2c4d57;
 .emp-request-leave p{
 color:#407281;
 }
+/*PMS */
+.pms-bpx{
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 0px;
+  margin-bottom: 10px;
+}
+.pms-bpx a{    border-radius: 5px 5px 0px 0px;
+    padding: 8px 30px;margin-right:10px; }
+.pms-btn{background-color:#D6DCDC;color:#000;}
+.pms-btn:hover{background-color:#61B6BB;color:#fff;}
+.pms-btn-active{background-color:#61B6BB;color:#fff;}
+.pms-emp-details b{color:#264E58;}
+.pms-emp-details span{color:#DC7937;font-weight:500;}
+.pms-emp-details .col-md-4{border-bottom:1px solid #ddd;    
+	padding-bottom: 6px;
+    margin-top: 6px;
+}
+
+.kra-btns{
+  float: left;
+}
+.kra-btns li{
+float: left;
+margin-left: 10px;
+}
+.kra-btns li a i{margin-left: 3px;}
