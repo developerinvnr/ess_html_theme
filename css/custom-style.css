@@ -998,3 +998,12 @@ float: left;
 margin-left: 10px;
 }
 .kra-btns li a i{margin-left: 3px;}
+.achievements-list{width:100%;}
+.achievements-list li{margin-bottom:10px;}
+.my-request-msg{
+  border-bottom:1px solid #ddd;padding-bottom:5px;margin-bottom:8px;
+}
+.nav-tabs .nav-link.active{background-color:#D9D9D9 !important;}
+.nav-tabs .nav-link{background-color:#fff !important;}
+.appraisal-view h5{margin-bottom:10px;font-weight:500;border-bottom:1px solid #ddd;padding-bottom:10px;}
+.appraisal-view li{margin-bottom:5px;}
